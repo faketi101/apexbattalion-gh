@@ -10,13 +10,13 @@ $(window).scroll(function () {
   }
 });
 
-const pMenuLogo = document.getElementById("pMenuLogo");
-pMenuLogo.addEventListener("click", () => {
+const pMenuLogo = document?.getElementById("pMenuLogo");
+pMenuLogo?.addEventListener("click", () => {
   location.href = "../index.html";
 
 });
-const pMenuLogo_2 = document.getElementById("pMenuLogo_2");
-pMenuLogo_2.addEventListener("click", () => {
+const pMenuLogo_2 = document?.getElementById("pMenuLogo_2");
+pMenuLogo_2?.addEventListener("click", () => {
   location.href = "./index.html";
 });
 
