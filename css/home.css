@@ -90,6 +90,7 @@ label{
     height: 68px;
     /* opacity: .5; */
     background: var(--dark_3);
+    border-bottom: 1px solid var(--green_3);
 }
 .hdr-sticky{
     position: sticky;
