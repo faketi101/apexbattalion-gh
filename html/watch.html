@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WATCH APEX</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <link rel="icon" href="/img/apexlogo.ico">
+
+
+</head>
+<body>
+     {{>header watch=true}}
+    <section class="watch log_img_bg">
+
+        <div class="topContent">
+            <h1 class="white section_header">WATCH OUR <span class="red">STREAMERS</span></h1>
+            
+        </div>
+
+
+        <div class="single_watch">
+           <div class="all_content p_1">
+            <div class="p_shape">
+                <div class="text">
+                    <h1>itsbunnings</h1>
+                    <a href="https://www.twitch.tv/itsbunnings" target="_blank" rel="noopener noreferrer">Follow</a>
+                </div>
+            </div>
+            <div id="twitch-embed_1"></div>   
+           </div>
+        </div>
+
+        <div class="single_watch">
+            <div class="all_content p_2">
+                <div id="twitch-embed_2">
+                </div>   
+                <div class="p_shape_2 rotate"><div class="text">
+                    <h1>Carnage</h1>
+                    <a href="https://www.twitch.tv/thenameiscarnage" target="_blank" rel="noopener noreferrer">Follow</a>
+                </div></div>
+            </div>
+         </div>
+
+         <div class="single_watch">
+            <div class="all_content p_3">
+             <div class="p_shape">
+
+                <div class="text">
+                    <h1>xXNoobXx</h1>
+                    <a href="https://www.twitch.tv/xXnoobXx4906" target="_blank" rel="noopener noreferrer">Follow</a>
+                </div>
+             </div>
+             <div id="twitch-embed_3"></div>   
+            </div>
+         </div>
+
+         <div class="single_watch">
+            <div class="all_content p_4">
+                <div id="twitch-embed_4">
+                    
+                </div>   
+                <div class="p_shape_2 rotate"><div class="text">
+                    <h1>samid_ibrahim</h1>
+                    <a href="https://www.twitch.tv/samid_ibrahim19" target="_blank" rel="noopener noreferrer">Follow</a>
+                </div></div>
+            </div>
+         </div>
+
+         <div class="single_watch">
+            <div class="all_content p_5">
+             <div class="p_shape">
+
+                <div class="text">
+                    <h1>NAVID</h1>
+                    <a href="" target="_blank" rel="noopener noreferrer">Follow</a>
+                </div>
+             </div>
+             <div id="twitch-embed_5"></div>   
+            </div>
+         </div>
+
+         <div class="single_watch">
+            <div class="all_content p_6">
+                <div id="twitch-embed_6">
+                    
+                </div>   
+                <div class="p_shape_2 rotate"><div class="text">
+                    <h1>ALFRED</h1>
+                    <a href="" target="_blank" rel="noopener noreferrer">Follow</a>
+                </div></div>
+            </div>
+         </div>
+
+    </section>
+{{>footer}}   
+     <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+     <script type="text/javascript">
+        new Twitch.Embed("twitch-embed_1", {
+          width: 854,
+          height: 480,
+          channel: "itsbunnings", 
+        });
+
+        new Twitch.Embed("twitch-embed_2", {
+          width: 854,
+          height: 480,
+          channel: "thenameiscarnage",
+         });
+
+        new Twitch.Embed("twitch-embed_3", {
+          width: 854,
+          height: 480,
+          channel: "xXnoobXx4906",
+        });
+
+        new Twitch.Embed("twitch-embed_4", {
+          width: 854,
+          height: 480,
+          channel: "samid_ibrahim19",         
+        });
+         new Twitch.Embed("twitch-embed_5", {
+          width: 854,
+          height: 480,
+          channel: "samid_ibrahim19",         
+        });
+         new Twitch.Embed("twitch-embed_6", {
+          width: 854,
+          height: 480,
+          channel: "samid_ibrahim19",         
+        });
+      </script>
+      
+      
+
+</body>
+</html>

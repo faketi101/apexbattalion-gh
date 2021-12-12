@@ -1,0 +1,70 @@
+.t_head_1{
+    background: url("../img/Navid_APxBT_WZ_Streamer.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.t_head_2{
+    background: url("../img/Alfred_Banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.t_head_3{
+    background: url("../img/Abid_Banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.t_head_4{
+    background: url("../img/Saad_Banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ===============================team apex================================ */
+.t_apex_1{
+    background: url("../img/Ashiq.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.t_apex_2{
+    background: url("../img/Noob.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.t_apex_3{
+    background: url("../img/Ovi.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.t_apex_4{
+    background: url("../img/Samid.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.team_apx{
+    background: url("../img/team_apx_banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.team_hades{
+    background: url("../img/team_hades_banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.team_hyrda{
+    background: url("../img/team_hyrda_banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

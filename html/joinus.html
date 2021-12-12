@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APEX || JOIN</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="icon" href="/img/apexlogo.ico">
+
+</head>
+<body>
+     {{>header joinus=true}}
+    <section class="join_section">
+        <div class="join_us_form">
+            <form id="join_form">
+             <h1 class="form_heading">Apex Battalion <span class="red">Registration</span></h1>
+             <p class="heading_text">By Registering you will be put in a trial period of at least 3 months.</p>
+
+             <div class="form_inputs">
+                 <p>Enter Your E-mail</p>
+                <input type="text" name="email" id="" placeholder="E-mail">
+
+                <p>Why do you want to join Apex Battalion ? (Briefly explain)</p>
+                <input type="text" name="why_apex" id="" placeholder="Your Answer">
+
+                <p>Which game do you play ? </p>
+                <input type="radio" name="game" id="cod_warzone" value="cod_warzone">
+                <label for="cod_warzone">Call of Duty:Warzone</label><br>
+                <input type="radio" name="game" id="cod_mobile" value="cod_mobile">
+                <label for="cod_mobile">Call of Duty Mobile</label><br>
+                <input type="radio" name="game" id="pubg_mobile" value="pubg_mobile">
+                <label for="pubg_mobile">PUBG Mobile</label><br>
+                <input type="radio" name="game" id="pubg" value="pubg">
+                <label for="pubg">PUBG</label><br>
+                <input type="radio" name="game" id="valorant" value="valorant">
+                <label for="valorant">Valorant</label><br>
+                <input type="radio" name="game" id="fortnite" value="fortnite">
+                <label for="fortnite">Fortnite</label><br>
+                <input type="radio" name="game" id="apex_legends" value="apex_legends">
+                <label for="apex_legends">Apex Legends</label><br>
+                <input type="radio" name="game" id="csgo" value="csgo">
+                <label for="csgo">CS:GO</label><br>
+                <input type="radio" name="game" id="rainbow_six_siege" value="rainbow_six_siege">
+                <label for="rainbow_six_siege">Rainbow Six Seige</label><br>
+
+                <p>What's your IGN / Gamertag / ID ?</p>
+                <input type="text" name="ign" id="" placeholder="Type Here">
+
+                <p>What's your kill death ratio / rank ?</p>
+                <input type="text" name="kd" id="" placeholder="Type Here">
+
+                <p>Provide contact info: (Email, Phone Number, Address)</p>
+                <input type="text" name="contact" id="" placeholder="Type Here">
+
+                <p>Your social links (Facebook / Discord / Youtube)</p>
+                <input type="text" name="social" id="" placeholder="Type Here"><br>
+
+                <input type="submit" value="Submit">
+             </div>
+            </form>
+        </div>
+    </section>
+    {{>footer}}   
+    <script src="../js/join_us_form.js"></script>
+      
+
+</body>
+</html>
