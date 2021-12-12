@@ -15,7 +15,7 @@ function formHandler_mail(e) {
   const social = e.target.social.value;
 
   if (!email || !whyApex || !gameName || !ign || !kd || !contact || !social) {
-    return console.log("Fill up all");
+    return alert("Please fill all the inputs");
   }
 
   let send_data = {
@@ -95,7 +95,7 @@ function sendEmail(name, email, userdata) {
       <p>${userdata.ign}</p>
       <p class="bold">Q. What's your kill death ratio/rank?</p>
       <p>${userdata.kd}</p>
-      <p class="bold">Q. Provide contact info: (Email, Phone Number, Address)</p>
+      <p class="bold">Q. Provide contact info: (Phone Number, Address)</p>
       <p>${userdata.contact}</p>
       <p class="bold">Q. Your social links (Facebook / Discord / Youtube)</p>
       <p>${userdata.social}</p>
@@ -114,7 +114,7 @@ function sendEmail(name, email, userdata) {
     Subject: `New Apex Join Request`,
     Body: email_body,
   }).then((message) => {
-    alert("Your Request has been sent");
+    location.href = "./mail_success.html";
   });
 }
 
