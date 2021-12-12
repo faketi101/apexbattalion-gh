@@ -15,7 +15,7 @@ function formHandler_mail(e) {
   const social = e.target.social.value;
 
   if (!email || !whyApex || !gameName || !ign || !kd || !contact || !social) {
-    return alert("Please fill all the inputs");
+    return alert("Please fill all form the inputs");
   }
 
   let send_data = {
@@ -109,7 +109,7 @@ function sendEmail(name, email, userdata) {
     Host: "smtp.gmail.com",
     Username: "tamim85000@gmail.com",
     Password: "eucrmecylwafzfut",
-    To: "coding.beast.404@gmail.com",
+    To: "theapexbattalion@gmail.com",
     From: "tamim85000@gmail.com",
     Subject: `New Apex Join Request`,
     Body: email_body,
