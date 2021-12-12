@@ -15,3 +15,8 @@ pMenuLogo.addEventListener("click", () => {
   location.href = "../index.html";
 
 });
+const pMenuLogo_2 = document.getElementById("pMenuLogo_2");
+pMenuLogo_2.addEventListener("click", () => {
+  location.href = "./index.html";
+});
+
