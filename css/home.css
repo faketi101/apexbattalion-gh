@@ -1151,7 +1151,9 @@ footer p{
     font-weight: 900 !important;
 }
 
-
+.overflow_not_hide{
+    overflow: visible !important;
+}
 
 
 
