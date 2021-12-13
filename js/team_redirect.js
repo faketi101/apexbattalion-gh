@@ -21,5 +21,5 @@ team_apex.addEventListener("click", () => {
   location.href = "../html/looking_for_team.html";
 });
 team_pubg.addEventListener("click", () => {
-  location.href = "../html/looking_for_team.html";
+  location.href = "../html/t_pubg_mobile.html";
 });

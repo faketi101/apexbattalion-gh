@@ -54,7 +54,7 @@ html{
 
 body{
     margin: 0;
-    padding:0;
+    padding:0;    
 }
 h1{
     /* font: 40px 'Modak', cursive; */
@@ -175,7 +175,49 @@ label{
 .menu li a:hover{
     color: var(--green_3);
 }
+.res_menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    background: var(--dark_3);
+    width: 100vw;
+    height: 100vh;
+    font: 25px oswald;
+    display: none;
+}
+.res_menu ul{
+    list-style: none;
+}
+.res_menu ul li a{
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    padding: 15px 20px;
+    color: var(--light);
+    font-weight: 900;
+    transition: .5s;
+}
+.res_menu ul li a:hover{
+    color: var(--green_3);
+}
+#res_menu_close{
+    width: 25px;
+}
+#drop_menu{
+    width: 25px;
+    float: right;
+    margin-top: 17px;
+    display: none;
 
+}
+.d_hide{
+    display: none !important;
+}
+.d_show{
+    display: block !important;
+}
 ul.subMenu{
     padding: 0;
     width: 270px;
@@ -752,6 +794,9 @@ intro-section, .intro-section .container_s .row {
 .frame{
     z-index: 1;
 }
+.mh-100{
+    min-height: 100vh;
+}
 /* ---------------------------WATCH SECTION------------------------- */
 /* ---------------------------WATCH SECTION------------------------- */
 
@@ -760,6 +805,7 @@ intro-section, .intro-section .container_s .row {
     width: 100%;
     height: 400px;
     border-bottom: 3px solid var(--green_3);
+    overflow: hidden;
 }
 .single_watch h1{
     font: 40px oswald !important;
@@ -885,7 +931,7 @@ intro-section, .intro-section .container_s .row {
 .contents{
     width: 1170px;
     margin: auto;
-   
+    overflow: hidden;
 }
 .montage{
     justify-content: center;
@@ -893,6 +939,7 @@ intro-section, .intro-section .container_s .row {
     justify-items: center;
     display: flex;
     padding: 20px 0;
+    width: 100%;
 }
 .montage iframe{
     margin: 0 10px;
@@ -1035,35 +1082,6 @@ footer p{
 .test{
     height: 1000vh;
 }
-/* =========================================================================== */
-/* =========================RESPONSIVE============================== */
-/* =========================================================================== */
-@media only screen and (max-width: 1200px) {
-    .head_container {
-      width: 800px;
-    }
-  }
-
-  @media only screen and (max-width: 800px) {
-    .head_container {
-      width: 650px;
-    }
-  }
-  @media only screen and (max-width: 670px) {
-    .head_container {
-      width: 480px;
-    }
-    .menu li a{
-        padding: 15px 5px;
-    }
-    .pMenuLogo{
-        margin-top: 13px;
-    }
-    .pMenuLogo h1{
-        font-size: 30px !important;
-    }
-  }
-
 
 /* =========================================================================== */
 .team_join{
@@ -1132,3 +1150,143 @@ footer p{
     font: 40px oswald !important;
     font-weight: 900 !important;
 }
+
+
+
+
+
+
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ====================================RESPONSIVE============================== */
+/* ============================================================================ */
+/* ============================================================================ */
+@media only screen and (max-width: 1200px) {
+    .head_container {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 1263px) {
+    .team_header ul{
+        width: 100%;
+    }
+    .s{
+        width: 960px;
+        margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width: 1206px) {
+    .container_s{
+        width: 1120px !important;
+    }
+    .container_te{
+        width: 100% !important;
+    }
+    #home-section{
+        overflow: hidden;
+    }
+    .contents{
+        width: 880px;
+    }
+    .s_embed{
+        width: 600px !important;
+    }
+    .p_shape iframe{
+        width: 600px !important;
+
+    }
+   }
+   @media only screen and (max-width: 1020px){
+    .our_vision p{ 
+       
+        right: 40px !important;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .pMenuLogo{
+        margin-top: 20px;
+    }
+    .pMenuLogo h1{
+        font-size: 25px !important;
+    }
+    .our_vision{
+        padding-top: 200px !important;
+    }
+    .our_vision p{ 
+        width: 360px !important;
+        font-size: 21px !important;
+        right: 40px !important;
+    }
+    .s{
+        width: 640px;
+        margin: 0 auto;
+    }
+    .contents .montage{
+        flex-direction: column;
+    }
+    .s_embed{
+        width: 400px !important;
+    }
+    .p_shape .text h1{
+        font-size: 30px !important;
+    }
+    .p_shape .text a{
+        font-size: 15px !important;
+    }
+    .p_shape iframe{
+        width: 400px !important;
+
+    }
+}
+
+  
+  @media only screen and (max-width: 800px) {
+    .head_container {
+      width: 650px;
+    }
+    .meetOurTeam-allBlock{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu{
+        display: none;
+    }
+    #drop_menu{
+        display: block;
+    }
+    .our_team .tittle{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .head_container {
+      width: 480px;
+    }
+    .menu li a{
+        padding: 15px 5px;
+    }
+    .pMenuLogo{
+        margin-top: 13px;
+    }
+    .pMenuLogo h1{
+        font-size: 30px !important;
+    }
+    .our_vision p{
+        right: 5px !important;
+    }
+    .s{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contents{
+        width: 500px;
+    }
+    .p_shape .text{
+        left: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+  }
+

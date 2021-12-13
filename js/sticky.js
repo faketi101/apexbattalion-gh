@@ -12,11 +12,22 @@ $(window).scroll(function () {
 
 const pMenuLogo = document?.getElementById("pMenuLogo");
 pMenuLogo?.addEventListener("click", () => {
-  location.href = "../index.html";
+  location.href = "./index.html";
 
 });
 const pMenuLogo_2 = document?.getElementById("pMenuLogo_2");
 pMenuLogo_2?.addEventListener("click", () => {
-  location.href = "./index.html";
+  location.href = "../index.html";
 });
 
+const drop_menu = document?.getElementById("drop_menu");
+const res_menu = document?.getElementById("res_menu");
+const res_menu_close = document?.getElementById("res_menu_close");
+
+drop_menu?.addEventListener("click", () => {
+  res_menu.classList.add("d_show");
+});
+
+res_menu_close?.addEventListener("click", () => {
+  res_menu.classList.add("d_hide");
+});
