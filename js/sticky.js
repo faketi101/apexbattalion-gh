@@ -31,3 +31,11 @@ drop_menu?.addEventListener("click", () => {
 res_menu_close?.addEventListener("click", () => {
   res_menu.classList.add("d_hide");
 });
+
+
+const loader = document.getElementById("loader");
+const body_content = document.getElementById("body_content");
+window.addEventListener("load", () => {
+  loader.classList.add("d_hide");
+  body_content.classList.add("d_show");
+});

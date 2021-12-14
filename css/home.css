@@ -75,7 +75,9 @@ label{
     font-family: work sans;
 }
 
-
+.body_content{
+    display: none;
+}
 /* .container{
     width: 1170px;
     margin: auto;
