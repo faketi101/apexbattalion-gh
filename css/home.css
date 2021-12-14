@@ -306,6 +306,8 @@ intro-section, .intro-section .container_s .row {
     left:0;
     background: var(--dark_1);
     border-bottom-right-radius: 200px;
+    border-bottom: 5px solid var(--green_3);
+    opacity: .3;
 }
 
 
@@ -371,7 +373,17 @@ intro-section, .intro-section .container_s .row {
   height:100%;
   border: 10px solid var(--green_3);
 }
-
+.slide_text{
+    border: 5px solid var(--green_3);
+    margin-left: 10px;
+    border-radius: 10px;
+    background: var(--dark_1);
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px !important;
+}
 
 /* --------------------------------------TEAM------------------------------------ */
 .container {
