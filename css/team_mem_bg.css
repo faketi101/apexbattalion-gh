@@ -68,3 +68,10 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.team_gun{
+    background: url("../img/gunslinger.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

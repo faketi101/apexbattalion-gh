@@ -607,6 +607,7 @@ intro-section, .intro-section .container_s .row {
     width: 200px;
     transition: .5s;
     cursor: pointer;
+    z-index: 1;
     /* border-right: 3px solid var(--red_1);
     border-left: 3px solid var(--red_1); */
     border-bottom: 3px solid var(--red_1);
