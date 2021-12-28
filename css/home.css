@@ -386,6 +386,11 @@ intro-section, .intro-section .container_s .row {
 }
 
 /* --------------------------------------TEAM------------------------------------ */
+.container_tx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container {
     align-items: center;
     justify-content: center;
