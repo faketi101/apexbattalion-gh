@@ -383,6 +383,7 @@ intro-section, .intro-section .container_s .row {
     justify-content: center;
     align-items: center;
     margin-right: 0px !important;
+    overflow: hidden;
 }
 
 /* --------------------------------------TEAM------------------------------------ */
@@ -1312,3 +1313,54 @@ footer p{
     }
   }
 
+  @media only screen and (max-width: 500px) {
+    .head_container {
+        width: 375px;
+      }
+      .pMenuLogo h1{
+          font-size: 20px !important;
+      }
+      .pMenuLogo{
+          margin-top: 23px;
+          margin-left: 5px;
+      }
+      .container_s{
+          width: 375px !important;
+      }
+      .slide_text{
+          margin-top: 10px;
+      }
+      .slide_image{
+          margin-top: 20px !important;
+        border-radius: 0px !important;
+      }
+      .topContent{
+          width: 375px;
+          padding: 0 !important;
+      }
+      .topContent h1{
+          font-size: 25px;
+      }
+      .our_vision p{
+          width: 200px !important;
+          font-size: 16px !important;
+      }
+      .all_content p{
+          top: 40px;
+      }
+      .s{
+          width: 375px;
+      }
+      .log_img_bg{
+          overflow: hidden;
+      }
+      .contents{
+          width: 375px;
+      }
+      .montage iframe{
+          margin-top: 15px;
+      }
+      .join_us_form{
+          width: 275px;
+      }
+  }
