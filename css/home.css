@@ -1363,4 +1363,22 @@ footer p{
       .join_us_form{
           width: 275px;
       }
+      .our_team .social li a{
+          padding: 10px 8px ;
+      }
+      .our_team .tittle{
+          font-size: 15px !important;
+      }
+      .container_mem{
+          flex-direction: column;
+      }
+      .s_embed{
+          display: none;
+      }
+      .p_shape{
+          width: 100%;
+      }
+      .p_shape .text{
+          display: block;
+      }
   }
