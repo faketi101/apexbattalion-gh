@@ -765,7 +765,7 @@ intro-section, .intro-section .container_s .row {
     background-repeat: no-repeat !important; 
     background-size: cover !important;
     background-attachment: fixed !important;
-
+    overflow: hidden;
 }
 
   .topContent{
@@ -923,6 +923,12 @@ intro-section, .intro-section .container_s .row {
 }
 .p_8{
     background: url("../img/murad_banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.p_9{
+    background: url("../img/01_sh.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
